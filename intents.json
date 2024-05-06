@@ -1,0 +1,70 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["My pleasure", "You're Welcome"],
+      "context": [""]
+    },
+    {
+      "tag": "query",
+      "patterns": ["What is Simplilearn?"],
+      "responses": [
+        "Simplilearn is the popular online Bootcamp & online courses learning platform "
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "fever",
+      "patterns": ["I have fever"],
+      "responses": [
+        "Go for Panadol and take some rest",
+        "Rest and stay hydrated, letting your body fight off the infection naturally.",
+        "Consider taking a lukewarm bath to help bring down your fever.",
+        "Stay indoors to avoid further exposure and prevent spreading any contagious illness.",
+        "Consult with a healthcare professional for personalized advice and treatment options."
+      ],
+      "context": [""]
+    }
+  ]
+}
